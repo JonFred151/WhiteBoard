@@ -1,4 +1,4 @@
-//public method that accept divisble by 3, 5 , or both 
+//public method that accept divisible by 3, 5, or both 
 
 public fizzbuzz(int x)
 {
@@ -16,5 +16,10 @@ else if (x % 3 == 0 || x % 5 == 0 )
 {
      respond = "fizzbuzz"; 
 }
+else
+{
+    respond = "There is no number that can divide by 3 or 5."
+}   
+
 return respond;
 }
