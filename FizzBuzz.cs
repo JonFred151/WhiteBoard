@@ -3,18 +3,19 @@
 public fizzbuzz(int x)
 {
     string respond;
-if (x % 3 == 0 )
-{
-     respond = "fizz"; 
+if (x % 3 == 0 && x % 5 == 0 )
+
+{    
+    respond = "fizzbuzz"; 
 
 }
 else if (x % 5 == 0)
 {
      respond = "buzz";
 }
-else if (x % 3 == 0 || x % 5 == 0 )
+else if(x % 3 == 0 ) 
 {
-     respond = "fizzbuzz"; 
+     respond = "fizz"; 
 }
 else
 {
